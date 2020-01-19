@@ -1,7 +1,6 @@
 {
   "name": "mergetest",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "XLor",
   "scripts": {
     "build": "yarn tsc",
