@@ -1,0 +1,22 @@
+{
+  "name": "mergetest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "XLor",
+  "scripts": {
+    "build": "yarn tsc",
+    "lint": "yarn prettier --parser typescript --write src/**/*.ts"
+  },
+  "bin": {
+    "mergetest": "dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.1.8",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "cac": "^6.5.5"
+  }
+}
