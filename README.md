@@ -4,6 +4,14 @@ MergeTest can automatically merge multi testcase input and answer files into sin
 
 MergeTest can also automatically trim the end of line.
 
+## Install
+
+```base
+npm install -g mergetest
+# or
+yarn global add mergetest
+```
+
 ## Usage
 
 ```bash
